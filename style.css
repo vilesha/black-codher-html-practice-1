@@ -1,0 +1,47 @@
+@import
+url('https://fonts.google.com/share?selection.family=Urbanist:wght@100');
+<!-- need to check if above import is correct, also imported in idex.html-->
+
+h1 {
+    color:red;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    background: pink;
+    font-family: 'Urbanist', sans-serif;
+}
+
+@media mobile (min width: 600px) {
+     h {
+      font-size: 20px;  
+    }
+    p {
+        font-size: 14px;
+    }
+    background {
+        color: #3D3B8E;
+    }
+    font {
+        color: #FFF;
+    }
+}
+
+@media desktop (max-width:600px) {
+h {
+    font-size: 50px;
+}
+p {
+    font-size: 26px;
+}
+background {
+    color: #B0E298;
+}
+font {
+    color: #000;
+}
+
+}
+
