@@ -3,7 +3,7 @@ url('https://fonts.google.com/share?selection.family=Urbanist:wght@100');
 <!-- need to check if above import is correct, also imported in idex.html-->
 
 h1 {
-    color:red;
+    color: grey;
 }
 .container {
     display: flex;
